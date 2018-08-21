@@ -1,4 +1,6 @@
+###################################
 ## Copy Script für die Sicherung ##
+###################################
 set Logfilename=L:\Mails\Outlook-Archive\Copy.log
 set QuelleName=C:\Users\z1337004\Documents\Outlook-Archive\*.* 
 set ZielName=L:\Mails\Outlook-Archive\
@@ -13,7 +15,7 @@ time /t >>%Logfilename%
 echo ###files before copy >> %Logfilename%
 dir %ZielName% >>%Logfilename%
 
-echo ###copying files in progress.....  >> %Logfilename%
+echo ###copying files in progress............  >> %Logfilename%
 copy %QuelleName% %ZielName% /y >>%Logfilename%
 
 echo ###files after copy >> %Logfilename%
@@ -23,4 +25,6 @@ echo %endinfo%
 time /t >>%Logfilename%
 echo %endinfo% >>%Logfilename%
 
+
 %Logfilename%
+######Ende######
