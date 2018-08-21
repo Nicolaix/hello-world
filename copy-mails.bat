@@ -1,3 +1,4 @@
+## Copy Script für die Sicherung ##
 set Logfilename=L:\Mails\Outlook-Archive\Copy.log
 set QuelleName=C:\Users\z1337004\Documents\Outlook-Archive\*.* 
 set ZielName=L:\Mails\Outlook-Archive\
