@@ -4,8 +4,8 @@
 set Logfilename=L:\Mails\Outlook-Archive\Copy.log
 set QuelleName=C:\Users\z1337004\Documents\Outlook-Archive\*.* 
 set ZielName=L:\Mails\Outlook-Archive\
-set startinfo=### Copy Mail Start ###
-set endinfo=### Copy Mail End ###
+set startinfo=### Copy Mail Start ###################################
+set endinfo=### Copy Mail End ###################################
 
 echo %startinfo% >> %Logfilename%
 
@@ -27,4 +27,7 @@ echo %endinfo% >>%Logfilename%
 
 
 %Logfilename%
+
+####################################
 ######Ende######
+####################################
