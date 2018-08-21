@@ -1,5 +1,4 @@
-# hello-world
-my first repo on GitHub
+# hello-world my first repo on GitHub
 
 Todos
 1. aaaa
@@ -7,4 +6,4 @@ Todos
 
 Kwnon Bugs
 - BB-aaa
-- BB-bbb
+- BB-bbb <>ok
